@@ -7,7 +7,24 @@ assignees: "odannyc"
 body:
     - type: markdown
       attributes:
-        value: "### ☕ GitCoffee — GITBLEND_V1\n\nFresh roasted to order and crafted for espresso + drip.\n\n#### What you’re getting\n* 12oz bag\n* $16 per bag\n* Light-to-medium roast\n* Origins: Ethiopia Yirgacheffe Natural, Burundi Kayanza, Colombia Pink Bourbon\n* Tasting notes: bright fruit, floral aromatics, sweet finish\n\n#### Shipping\n* Flat rate: $5 (US only)\n* Ships in 1–2 days\n\nAfter you submit, you’ll get a secure **Stripe Checkout** link to complete payment and shipping details. \U0001F510\n"
+        value: |
+          ### ☕ GitCoffee — GITBLEND_V1
+          
+          Fresh roasted to order and crafted for espresso + drip.
+          
+          #### What you’re getting
+          * 12oz bag
+          * $16 per bag
+          * Light-to-medium roast
+          * Origins: Ethiopia Yirgacheffe Natural, Burundi Kayanza, Colombia Pink Bourbon
+          * Tasting notes: bright fruit, floral aromatics, sweet finish
+          
+          #### Shipping
+          * Flat rate: $5 (US only)
+          * Ships in 1–2 days
+          
+          After you submit, you’ll get a secure **Stripe Checkout** link to complete payment and shipping details. \U0001F510
+
     - type: dropdown
       id: product
       attributes:
