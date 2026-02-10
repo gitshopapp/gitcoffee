@@ -10,7 +10,7 @@ shop:
 
 products:
   - sku: "GITBLEND_V1"
-    name: "GitBlend V1"
+    name: "GitBlend V1 (12oz)"
     description: "GitBlend V1 is a light-to-medium roast crafted for balance, with bright fruit notes and sweetness for both espresso and drip. Origins: Ethiopia Yirgacheffe Natural, Burundi Kayanza, and Colombia Pink Bourbon."
     unit_price_cents: 1600
     active: true
