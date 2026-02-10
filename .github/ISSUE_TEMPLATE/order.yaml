@@ -3,6 +3,7 @@ name: "Order Fresh Coffee Beans"
 description: "☕ Place your GitCoffee order for GITBLEND_V1"
 title: "Order: GITBLEND_V1 - "
 labels: ["gitshop:order", "gitshop:status:pending-payment"]
+assignees: "odannyc"
 body:
   - type: markdown
     attributes:
