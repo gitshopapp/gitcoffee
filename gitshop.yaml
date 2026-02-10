@@ -1,24 +1,22 @@
 # GitShop Configuration
-# This file defines your product catalog and store settings.
-# The product below is a sample. Replace it with your own items.
 
 shop:
-  name: "gitshopapp/gitcoffee"
+  name: "GitCoffee"
   currency: "usd"
-  manager: ""
+  manager: "odannyc"
   shipping:
     flat_rate_cents: 500
     carrier: "USPS"
 
 products:
-  - sku: "EXAMPLE_TSHIRT"
-    name: "Example T-Shirt"
-    description: "Sample product — replace this with your own catalog."
-    unit_price_cents: 2500
+  - sku: "GITBLEND_V1"
+    name: "GitBlend V1"
+    description: "GitBlend V1 is a light-to-medium roast crafted for balance, with bright fruit notes and sweetness for both espresso and drip. Origins: Ethiopia Yirgacheffe Natural, Burundi Kayanza, and Colombia Pink Bourbon."
+    unit_price_cents: 1600
     active: true
     options:
-      - name: "size"
-        label: "Size"
+      - name: "grind"
+        label: "Grind"
         type: "dropdown"
         required: true
-        values: ["S", "M", "L", "XL"]
+        values: ["Whole Bean", "Ground"]
