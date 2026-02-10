@@ -4,79 +4,79 @@ description: "☕ Place your GitCoffee order for GITBLEND_V1"
 title: "☕ Order: GITBLEND_V1 - "
 labels: ["gitshop:order", "gitshop:status:pending-payment"]
 body:
-- type: markdown
-  attributes:
-    value: |
-      ## ☕ GitCoffee — GITBLEND_V1
-
-      Thanks for ordering fresh roasted coffee!
-      **GITBLEND_V1** is a light-to-medium roast blend built for both espresso and drip.
-
-      **Bag Size 🫘**
-      - 12oz
-
-      **Origins 🌍**
-      - Ethiopia Yirgacheffe Natural
-      - Burundi Kayanza
-      - Colombia Pink Bourbon
-
-      **Tasting Notes 🍓🍯🌸**
-      - Bright fruit
-      - Floral aromatics
-      - Sweet, balanced finish
-
-      **Great for ✅**
-      - Espresso
-      - Cappuccinos
-      - Lattes
-      - Pour overs
-
-      **Price 💵**
-      - $16 per 12oz bag
-
-      **Shipping 📦**
-      - Flat rate: $5 (US only)
-      - Roasted to order
-      - Ships in 1–2 days
-
-      After submitting this form, you’ll receive a secure **Stripe Checkout** link where shipping and payment details are collected securely. 🔐
-
-- type: dropdown
-  id: product
-  attributes:
-  label: "Product"
-  description: "Pick your coffee for this order. Right now we’re serving our flagship GitBlend V1 ☕"
-  options:
-    - "GitBlend V1 (12oz) — $16.00 (SKU:GITBLEND_V1)"
-  validations:
-    required: true
-
-- type: dropdown
-  id: grind
-  attributes:
-    label: "🫘 Grind"
-    description: "Choose your preferred grind. Note: Ground is typically the ideal size for drip/pour over."
-    options:
-      - "Whole Bean"
-      - "Ground"
-  validations:
-    required: true
-
-- type: textarea
-  id: order_notes
-  attributes:
-    label: "📝 Order Notes (optional)"
-    description: "Add any brew preferences or notes for your order."
-    placeholder: "Anything you'd like us to know?"
-
-- type: checkboxes
-  id: confirmations
-  attributes:
-    label: "✅ Please confirm"
-    options:
-      - label: "I understand this coffee is roasted to order and ships in 1–2 days."
+  - type: markdown
+    attributes:
+      value: |
+        ## ☕ GitCoffee — GITBLEND_V1
+  
+        Thanks for ordering fresh roasted coffee!
+        **GITBLEND_V1** is a light-to-medium roast blend built for both espresso and drip.
+  
+        **Bag Size 🫘**
+        - 12oz
+  
+        **Origins 🌍**
+        - Ethiopia Yirgacheffe Natural
+        - Burundi Kayanza
+        - Colombia Pink Bourbon
+  
+        **Tasting Notes 🍓🍯🌸**
+        - Bright fruit
+        - Floral aromatics
+        - Sweet, balanced finish
+  
+        **Great for ✅**
+        - Espresso
+        - Cappuccinos
+        - Lattes
+        - Pour overs
+  
+        **Price 💵**
+        - $16 per 12oz bag
+  
+        **Shipping 📦**
+        - Flat rate: $5 (US only)
+        - Roasted to order
+        - Ships in 1–2 days
+  
+        After submitting this form, you’ll receive a secure **Stripe Checkout** link where shipping and payment details are collected securely. 🔐
+  
+  - type: dropdown
+    id: product
+    attributes:
+      label: "Product"
+      description: "Pick your coffee for this order. Right now we’re serving our flagship GitBlend V1 ☕"
+      options:
+        - "GitBlend V1 (12oz) — $16.00 (SKU:GITBLEND_V1)"
+      validations:
         required: true
-      - label: "I understand shipping is a flat $5 (US only)."
-        required: true
-      - label: "I understand payment and shipping details are completed through secure Stripe checkout."
-        required: true
+  
+  - type: dropdown
+    id: grind
+    attributes:
+      label: "🫘 Grind"
+      description: "Choose your preferred grind. Note: Ground is typically the ideal size for drip/pour over."
+      options:
+        - "Whole Bean"
+        - "Ground"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: order_notes
+    attributes:
+      label: "📝 Order Notes (optional)"
+      description: "Add any brew preferences or notes for your order."
+      placeholder: "Anything you'd like us to know?"
+  
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: "✅ Please confirm"
+      options:
+        - label: "I understand this coffee is roasted to order and ships in 1–2 days."
+          required: true
+        - label: "I understand shipping is a flat $5 (US only)."
+          required: true
+        - label: "I understand payment and shipping details are completed through secure Stripe checkout."
+          required: true
