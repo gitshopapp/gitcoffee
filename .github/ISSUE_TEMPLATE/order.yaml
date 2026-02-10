@@ -8,11 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ☕ GitCoffee — GITBLEND_V1
+        ### ☕ GitCoffee — GITBLEND_V1
 
           Fresh roasted to order and crafted for espresso + drip.
 
           **What you’re getting**
+          
             - 12oz bag
             - $16 per bag
             - Light-to-medium roast
@@ -20,6 +21,7 @@ body:
             - Tasting notes: bright fruit, floral aromatics, sweet finish
 
           **Shipping**
+          
             - Flat rate: $5 (US only)
             - Ships in 1–2 days
 
