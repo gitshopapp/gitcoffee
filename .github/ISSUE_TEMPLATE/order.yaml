@@ -8,38 +8,21 @@ body:
     attributes:
       value: |
         ## ☕ GitCoffee — GITBLEND_V1
-  
-        Thanks for ordering fresh roasted coffee!
-        **GITBLEND_V1** is a light-to-medium roast blend built for both espresso and drip.
-  
-        **Bag Size 🫘**
-        - 12oz
-  
-        **Origins 🌍**
-        - Ethiopia Yirgacheffe Natural
-        - Burundi Kayanza
-        - Colombia Pink Bourbon
-  
-        **Tasting Notes 🍓🍯🌸**
-        - Bright fruit
-        - Floral aromatics
-        - Sweet, balanced finish
-  
-        **Great for ✅**
-        - Espresso
-        - Cappuccinos
-        - Lattes
-        - Pour overs
-  
-        **Price 💵**
-        - $16 per 12oz bag
-  
-        **Shipping 📦**
-        - Flat rate: $5 (US only)
-        - Roasted to order
-        - Ships in 1–2 days
-  
-        After submitting this form, you’ll receive a secure **Stripe Checkout** link where shipping and payment details are collected securely. 🔐
+
+          Fresh roasted to order and crafted for espresso + drip.
+
+          **What you’re getting**
+            - 12oz bag
+            - $16 per bag
+            - Light-to-medium roast
+            - Origins: Ethiopia Yirgacheffe Natural, Burundi Kayanza, Colombia Pink Bourbon
+            - Tasting notes: bright fruit, floral aromatics, sweet finish
+
+          **Shipping**
+            - Flat rate: $5 (US only)
+            - Ships in 1–2 days
+
+          After you submit, you’ll get a secure **Stripe Checkout** link to complete payment and shipping details. 🔐
   
   - type: dropdown
     id: product
@@ -48,6 +31,20 @@ body:
       description: "Pick your coffee for this order. Right now we’re serving our flagship GitBlend V1 ☕"
       options:
         - "GitBlend V1 (12oz) — $16.00 (SKU:GITBLEND_V1)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: quantity
+    attributes:
+      label: "📦 Quantity"
+      description: "How many 12oz bags would you like?"
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
     validations:
       required: true
   
