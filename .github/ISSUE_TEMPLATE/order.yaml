@@ -48,8 +48,8 @@ body:
       description: "Pick your coffee for this order. Right now we’re serving our flagship GitBlend V1 ☕"
       options:
         - "GitBlend V1 (12oz) — $16.00 (SKU:GITBLEND_V1)"
-      validations:
-        required: true
+    validations:
+      required: true
   
   - type: dropdown
     id: grind
@@ -59,8 +59,8 @@ body:
       options:
         - "Whole Bean"
         - "Ground"
-      validations:
-        required: true
+    validations:
+      required: true
   
   - type: textarea
     id: order_notes
