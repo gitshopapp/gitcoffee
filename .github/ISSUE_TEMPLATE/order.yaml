@@ -23,7 +23,7 @@ body:
           * Flat rate: $5 (US only)
           * Ships in 1–2 days
           
-          After you submit, you’ll get a secure **Stripe Checkout** link to complete payment and shipping details. \U0001F510
+          After you submit, you’ll get a secure **Stripe Checkout** link to complete payment and shipping details. 🔐
 
     - type: dropdown
       id: product
