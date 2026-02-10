@@ -59,8 +59,8 @@ body:
       options:
         - "Whole Bean"
         - "Ground"
-    validations:
-      required: true
+      validations:
+        required: true
   
   - type: textarea
     id: order_notes
