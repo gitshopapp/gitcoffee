@@ -2,7 +2,7 @@
 
 **Buy fresh roasted coffee directly from GitHub.**
 
-GitCoffee is a real coffee shop and the first live storefront powered by **GitShop**.
+GitCoffee is a real coffee shop and the first live storefront powered by **[GitShop](https://github.com/gitshopapp/gitshop)**.
 Place an order in GitHub Issues, pay through secure Stripe Checkout, and track the process in the open.
 Yes, coffee commerce in a repo is real. 🚀
 
@@ -35,7 +35,7 @@ Payments are processed securely through **Stripe Checkout**.
 
 ## 🛍️ About GitShop
 
-I’m building **GitShop** so anyone can sell anything on GitHub by turning a repo into a storefront.
+I’m building **[GitShop](https://github.com/gitshopapp/gitshop)** so anyone can sell anything on GitHub by turning a repo into a storefront.
 GitCoffee is the first live store in that mission.
 
 ## 🎯 Blend Philosophy
@@ -54,4 +54,4 @@ I currently roast on:
 My coffee preference is a light, fruity, complex cup to a medium roast.
 I love espresso, cappuccinos, lattes, and pour overs.
 
-GitCoffee exists to share that love of coffee and to showcase what GitShop can do. ☕️
+GitCoffee exists to share that love of coffee and to showcase what [GitShop](https://github.com/gitshopapp/gitshop) can do. ☕️
