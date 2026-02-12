@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/gitcoffee-logo.jpeg" alt="GitCoffee logo" width="400" />
+</p>
+
 # GitCoffee ☕️💻
 
 **Buy fresh roasted coffee directly from GitHub.**
